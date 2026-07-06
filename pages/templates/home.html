@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Project</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#222;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .container{
+            width:80%;
+            margin:30px auto;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .btn{
+            display:inline-block;
+            background:#0d6efd;
+            color:white;
+            padding:10px 20px;
+            text-decoration:none;
+            border-radius:5px;
+            margin-top:10px;
+        }
+
+        .btn:hover{
+            background:#084298;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        table,th,td{
+            border:1px solid black;
+        }
+
+        th,td{
+            padding:10px;
+            text-align:center;
+        }
+
+        th{
+            background:#0d6efd;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Django Project</h1>
+    <p>Simple Home Page using HTML and CSS</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>About Django</h2>
+        <p>
+            Django is a high-level Python web framework that enables rapid
+            development of secure and maintainable websites.
+        </p>
+        <a href="https://www.djangoproject.com/" class="btn">Learn More</a>
+    </div>
+
+    <div class="card">
+        <h2>Features</h2>
+        <ul>
+            <li>Fast Development</li>
+            <li>Secure Authentication</li>
+            <li>Powerful ORM</li>
+            <li>Admin Panel</li>
+            <li>Scalable Applications</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Student Details</h2>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Course</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Karthik</td>
+                <td>Django</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Santhosh</td>
+                <td>Python</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Raj</td>
+                <td>Full Stack</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="card">
+        <h2>Contact Us</h2>
+
+        <form>
+            <label>Name</label><br><br>
+            <input type="text" placeholder="Enter your name" size="40"><br><br>
+
+            <label>Email</label><br><br>
+            <input type="email" placeholder="Enter your email" size="40"><br><br>
+
+            <label>Message</label><br><br>
+            <textarea rows="5" cols="42"></textarea><br><br>
+
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Django Project | Designed by Karthik</p>
+</footer>
+
+</body>
+</html>
