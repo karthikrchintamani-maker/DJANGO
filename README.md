@@ -217,8 +217,8 @@ After completing this project, you will understand:
 ## 📬 Contact
 
 - **Author:** Karthik R
-- **GitHub:** https://github.com/your-github-username
-- **Email:** your-email@example.com
+- **GitHub:**[ https://github.com/your-github-username](https://github.com/karthikrchintamani-maker/DJANGO.git)
+- **Email:** larthikrchintamanil@example.com
 
 ---
 
